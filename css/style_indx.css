@@ -1,0 +1,49 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  flex-wrap: nowrap;
+  background: #e4f1ff;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 80px;
+  transition: 2s width 0s, 5s height 2s;
+}
+.container:hover {
+  box-shadow: 5px 5px 50px rgb(202, 232, 255);
+}
+.whole {
+  display: flex;
+}
+.whole .left {
+  display: flex;
+  border-right: dashed white 3px;
+}
+.whole .left div {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.whole .left div img {
+  width: 100%;
+  height: 100%;
+}
+
+.whole .right {
+  text-align: center;
+  color: #0a7ef5;
+}
+.whole .right .inside_right {
+  font-family: emoji;
+  margin-top: 50px;
+}
+.whole .right .inside_right .form-control {
+  width: 70%;
+}
+.whole .right .inside_right .mybtn {
+  display: inline-block;
+}

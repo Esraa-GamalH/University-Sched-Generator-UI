@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+    <![endif]-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/tabel.css" />
+  </head>
+<body>
+  <div class="mylayer">
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-relative start-0 end-0 top-0 px-5"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">HHEL University</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >My Schedule</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 mt-3"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1>Schedule</h1>
+      <table class="table table-bordered table-dark mySched">
+        <thead>
+          <tr>
+            <th scope="col">Time/Day</th>
+            <th scope="col">Sunday</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">8:30 - 9:29</th>
+            <td class="ECEN424">ECEN424: Database (LEC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="ECEN432">ECEN432: Architecture (LEC)</td>
+          </tr>
+          <tr>
+            <th scope="row">9:30 - 10:29</th>
+            <td class="ECEN424">ECEN424: Database (LEC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="ECEN432">ECEN432: Architecture (LEC)</td>
+          </tr>
+          <tr>
+            <th scope="row">10:30 - 11:29</th>
+            <td></td>
+            <td class="ECEN406">ECEN406:Microprocessor (LEC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">11:30 - 12:29</th>
+            <td></td>
+            <td class="ECEN406">ECEN406:Microprocessor (LEC)</td>
+            <td class="ECEN421">ECEN421:Computer Networks (LEC)</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">12:30 - 1:29</th>
+            <td class="ECEN432">ECEN432: Architecture (TUT)</td>
+            <td></td>
+            <td class="ECEN421">ECEN421:Computer Networks (LEC)</td>
+            <td></td>
+            <td class="ECEN424">ECEN424: Database (Lab)</td>
+          </tr>
+          <tr>
+            <th scope="row">1:30 - 2:29</th>
+            <td class="ECEN432">ECEN432: Architecture (TUT)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="ECEN424">ECEN424: Database (Lab)</td>
+          </tr>
+          <tr>
+            <th scope="row">2:30 - 3:29</th>
+            <td></td>
+            <td class="ECEN421">ECEN421:Computer Networks (TUT)</td>
+            <td></td>
+            <td></td>
+            <td class="ECEN406">ECEN406:Microprocessor (TUT)</td>
+          </tr>
+          <tr>
+            <th scope="row">3:30 - 4:29</th>
+            <td></td>
+            <td class="ECEN421">ECEN421:Computer Networks (TUT)</td>
+            <td></td>
+            <td></td>
+            <td class="ECEN406">ECEN406:Microprocessor (TUT)</td>
+          </tr>
+          <tr>
+            <th scope="row">4:30 - 5:29</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">5:30 - 6:29</th>
+            <td class="SSCI104">SSCI104:<br>Science of Happiness (LEC)</td>
+            <td></td>
+            <td></td>
+            <td class="ECEN432">ECEN432: Architecture (Lab)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">6:30 - 7:29</th>
+            <td class="SSCI104">SSCI104:<br>Science of Happiness (LEC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">7:30 - 8:29</th>
+            <td class="SSCI104">SSCI104:<br>Science of Happiness (LEC)</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="nxt_prev d-flex">
+        <button id="btnP">&lt;&lt Prev</button>
+        <div id="btn1"><button>1</button></div>
+        <div id="btn2"><button>2</button></div>
+        <div id="btn3"><button style="background: #0a7ef5">3</button></div>
+        <button id="btnN">Next &gt;&gt</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
